@@ -12,4 +12,9 @@ public class Controller {
         return "Hello from Bridgelabz";
 
     }
+     @GetMapping("/Hello")
+    public String hello(Model model){
+
+        return "Hello ";
+    }
 }
